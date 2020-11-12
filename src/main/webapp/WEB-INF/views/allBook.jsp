@@ -42,7 +42,7 @@
 
                <tbody>
                <c:forEach var="book" items="${requestScope.get('list')}">
-                   <tr>
+                   <tr>                 	   
                        <td>${book.getBookID()}</td>
                        <td>${book.getBookName()}</td>
                        <td>${book.getBookCounts()}</td>

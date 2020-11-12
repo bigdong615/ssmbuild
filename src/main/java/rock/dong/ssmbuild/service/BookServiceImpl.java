@@ -6,40 +6,40 @@ import rock.dong.ssmbuild.dao.BookMapper;
 import rock.dong.ssmbuild.pojo.Books;
 
 public class BookServiceImpl implements BookMapper {
-	private BookMapper bookmapper;
+	private BookMapper bookMapper;
 
-	public void setBookmapper(BookMapper bookmapper) {
-		this.bookmapper = bookmapper;
+	public void setBookMapper(BookMapper bookMapper) {
+		this.bookMapper = bookMapper;
 	}
 
 	@Override
 	public int addBook(Books book) {
 		// TODO Auto-generated method stub
-		return bookmapper.addBook(book);
+		return bookMapper.addBook(book);
 	}
 
 	@Override
 	public int deleteBookById(int id) {
 		// TODO Auto-generated method stub
-		return bookmapper.deleteBookById(id);
+		return bookMapper.deleteBookById(id);
 	}
 
 	@Override
 	public int updateBook(Books books) {
 		// TODO Auto-generated method stub
-		return bookmapper.updateBook(books);
+		return bookMapper.updateBook(books);
 	}
 
 	@Override
 	public Books queryBookById(int id) {
 		// TODO Auto-generated method stub
-		return bookmapper.queryBookById(id);
+		return bookMapper.queryBookById(id);
 	}
 
 	@Override
 	public List<Books> queryAllBook() {
 		// TODO Auto-generated method stub
-		return bookmapper.queryAllBook();
+		return bookMapper.queryAllBook();
 	}
 
 }
