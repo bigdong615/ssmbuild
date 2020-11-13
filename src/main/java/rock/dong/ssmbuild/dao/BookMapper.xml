@@ -7,8 +7,7 @@
 
    <!--增加一个Book-->
    <insert id="addBook" parameterType="Books">
-      insert into ssmbuild.books(bookName,bookCounts,detail)
-      values (#{bookName}, #{bookCounts}, #{detail})
+      insert into ssmbuild.books(bookName,bookCounts,detail) values (#{bookName}, #{bookCounts}, #{detail})
    </insert>
 
    <!--根据id删除一个Book-->
