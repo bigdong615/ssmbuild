@@ -29,7 +29,7 @@ public class Books {
 	public String getDetail() {
 		return detail;
 	}
-	public void setDetails(String detail) {
+	public void setDetail(String detail) {
 		this.detail = detail;
 	}
 	int bookID;
